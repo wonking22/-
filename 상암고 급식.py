@@ -1,7 +1,3 @@
-import run
-# -*- coding: utf-8 -*-
-"""상암고 급식정보 Streamlit 앱 (SSL 검증 기본 OFF)"""
-
 import streamlit as st
 import requests
 import datetime
@@ -212,3 +208,4 @@ for row in target:
         ''',
         language="python"
     )
+
